@@ -1,0 +1,38 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of go coverage tool
+*.out
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Environment configuration.
+.env*
+*.env
+
+# IDE-specific files
+/.idea/
+/.vscode/
+*.iml
+*.suo
+nbproject/
+*.DS_Store
+
+# Packr box files
+*-packr.go
+
+# Compiled binary files
+# Add your project's binary name here if you have one, e.g., mcp-server
+# mcp-server
+
+# Local development tools / vendor directories
+vendor/ 

@@ -35,4 +35,7 @@ nbproject/
 # mcp-server
 
 # Local development tools / vendor directories
-vendor/ 
+vendor/
+
+# Cursor-specific files
+.cursor/ 

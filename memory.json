@@ -1,3 +1,8 @@
 {"type":"entity","entityType":"Tool","name":"Taskmaster MCP","observations":["A Model Context Protocol (MCP) tool."]}
 {"type":"entity","observations":["Product Requirements Documents."],"name":"PRDs","entityType":"Document Type"}
+{"type":"entity","name":"Context7 Usage Strategy","entityType":"Strategy","observations":["Always use Context7 first to get up-to-date information about a project or a library."]}
+{"type":"entity","observations":["If a project or library is not found in Context7, notify the user."],"entityType":"ProcessStep","name":"User Notification for Missing Context7 Entry"}
+{"type":"entity","name":"User Action to Add Context7 Entry","observations":["Upon notification of a missing entry, the user will add the project or library to Context7."],"entityType":"ProcessStep"}
 {"type":"relation","relationType":"manages","to":"PRDs","from":"Taskmaster MCP"}
+{"type":"relation","from":"Context7 Usage Strategy","to":"User Notification for Missing Context7 Entry","relationType":"includes_step"}
+{"type":"relation","from":"User Notification for Missing Context7 Entry","relationType":"triggers","to":"User Action to Add Context7 Entry"}

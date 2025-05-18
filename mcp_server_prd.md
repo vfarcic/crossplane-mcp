@@ -71,6 +71,7 @@ The MCP server MUST implement the underlying capabilities to support the workflo
 
 ## 5. Non-Functional Requirements
 *   **Chosen Language:** Go
+*   **Key SDK/Library:** The project will leverage the `mark3labs/mcp-go` SDK (https://github.com/mark3labs/mcp-go) for implementing the Model Context Protocol server functionalities. This SDK is expected to simplify the handling of MCP communication, allowing focus on the core service logic.
 *   **Reliability:** Robust error handling for cluster interactions.
 *   **Testing:** Comprehensive testing (unit, integration) is required.
 *   **Security:** Secure communication with Kubernetes API. Consider authN/authZ for the MCP server's API.
